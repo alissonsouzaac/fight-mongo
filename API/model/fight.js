@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const FightSchema = new Schema({
-	id_lutador : {Fight.length + 1},
+	id_lutador : {FightSchema.length + 1},
 	nome_lutador : { type : String, require: true},
 	birth_lutador : { type : String, require: true},
 	height : { type: String, require: true},
